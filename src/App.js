@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import QRCode from "react-qr-code";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <center>
+    <div style={{ background: 'white', padding: '40px', justifyContent: 'center',   }}>
+    <h2 style={{fontSize: '40px',}}>QR Code</h2>
+    <QRCode value="Acha ap main chlta hon" />
+    <p style={{fontSize: '40px',}} >Scan Me Now</p> ;
     </div>
+    </center>
   );
 }
 
