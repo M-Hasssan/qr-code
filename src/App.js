@@ -8,7 +8,7 @@ function App() {
     <div style={{ background: 'white', padding: '40px', justifyContent: 'center',   }}>
     <h2 style={{fontSize: '40px',}}>QR Code</h2>
     <QRCode value="Acha ap main chlta hon" />
-    <p style={{fontSize: '40px',}} >Scan Me Now</p> ;
+    <p style={{fontSize: '40px',}} >Scan Me Now</p>
     </div>
     </center>
   );
